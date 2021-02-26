@@ -24,4 +24,3 @@ assert resultado.status_code == 200
 
 # Testando o título
 assert resultado.json()['titulo'] == curso_atualizado['titulo']
-
